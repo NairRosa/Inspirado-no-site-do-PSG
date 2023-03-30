@@ -153,6 +153,7 @@ header {
 .psg-container .content {
     display: flex;
 }
+
 .content h3 {
     font-size: 16px;
     font-weight: 700;
@@ -257,4 +258,225 @@ header {
     line-height: 25px;
     font-size: 12px;
     font-weight: 500;
+}
+
+@media (max-width: 1440px) {
+    .psg-content {
+        height: 60%;
+        width: 35%;
+    }
+}
+
+@media (max-width: 1255px) {
+    .psg-content {
+        height: 65%;
+        width: 35%;
+    }
+}
+
+@media (max-width: 1167px) {
+    .psg-content {
+        height: 70%;
+        width: 35%;
+    }
+}
+
+@media (max-width: 1065px) {
+    nav {
+        gap: 25px;
+        font-size: 15px;
+    }
+
+    header {
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .button-enter button {
+        padding: 8px;
+        border-radius: 4px;
+        width: 120px;
+    }
+
+    .psg-content {
+        height: 87%;
+        width: 30%;
+    }
+}
+
+@media (max-width: 960px) {
+    .meio-neymar h1{
+        font-size: 40px;
+    }
+
+    .meio-neymar p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .btn {
+        padding: 7px;
+        border-radius: 4px;
+        width: 130px;
+    }
+
+    .psg-content p {
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 21px;
+    }
+}
+
+@media (max-width: 886px) {
+    .content h3 {
+        font-size: 13px;
+        padding-top: 5px;
+    }
+
+    .psg-content {
+        padding: 8px;
+    }
+
+    .psg-content p {
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 813px) {
+    nav {
+        gap: 15px;
+        font-size: 13px;
+    }
+
+    header {
+        align-items: center;
+        gap: 1,5rem;
+    }
+
+    .button-enter button {
+        padding: 8px;
+        border-radius: 4px;
+        width: 90px;
+        font-size: 13px;
+    }
+
+    .button-enter a {
+        font-size: 15px;
+    }
+
+    .container-placar {
+        gap: 2rem;
+        align-items: center;
+        padding: 1rem;
+    }
+    
+    .container-placar h1 {
+        font-weight: 500;
+        font-size: 30px;
+    }
+    
+    .container-placar h4 {
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 750px) {
+    nav {
+        gap: 10px;
+        font-size: 13px;
+    }
+
+    header {
+        gap: 1,5rem;
+    }
+
+    .button-enter button {
+        padding: 8px;
+        border-radius: 4px;
+        width: 90px;
+        font-size: 13px;
+    }
+
+    .button-enter a {
+        font-size: 15px;
+    }
+
+    .container-placar {
+        gap: 2rem;
+        align-items: center;
+        padding: 1rem;
+    }
+    
+    .container-placar h1 {
+        font-weight: 500;
+        font-size: 30px;
+    }
+    
+    .container-placar h4 {
+        font-weight: 400;
+    }
+
+    .psg-content {
+        height: 95%;
+        width: 30%;
+    }
+
+    .psg-content p {
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 685px) {
+    nav {
+        gap: 5pxpx;
+        font-size: 11px;
+    }
+
+    header {
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .button-enter button {
+        padding: 5px;
+        border-radius: 4px;
+        height: 30px;
+        width: 70px;
+        font-size: 11px;
+    }
+
+    .button-enter a {
+        font-size: 12px;
+    }
+
+    .btn {
+        padding: 7px;
+        border-radius: 4px;
+        margin-top: 2rem;
+        width: 120px;
+    }
+
+    .container-placar {
+        gap: 0.5rem;
+        align-items: center;
+        padding: 1rem;
+    }
+    
+    .container-placar h1 {
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .psg-content {
+        height: 95%;
+        width: 30%;
+    }
+
+    .psg-content p {
+        font-size: 11px;
+        font-weight: 700;
+        line-height: 18px;
+    }
 }
